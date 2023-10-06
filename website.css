@@ -1,0 +1,30 @@
+.container{
+    background-color: lightgray;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea{
+    
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 2px;
+}
+input[type="submit"]{
+    background-color: lightgreen;
+    color: #02082a;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+input[type="submit"]:hover{
+    background-color: rgb(255, 94, 0);
+}
