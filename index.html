@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photoduniya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="website.css">
+    <style>
+        header {
+            text-align: center;
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration-line: underline;
+            font-weight: 800;
+
+            background-color: rgb(255, 255, 255);
+            background-image: url(img/sunrise_sunset.jpg);
+            background-position: bottom;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 600;
+            font: size 900px;
+        }
+
+        nav a:hover {
+            color: cornflowerblue;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+
+        .image {
+            margin: 10px;
+
+        }
+
+        .tutorial {
+            margin: 10px;
+            padding: auto;
+
+
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 30px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .section3 {
+            
+            border: 8px solid rgb(158, 74, 74);
+            border-radius: 15px;
+            background-image: url(website/background.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .h2 {
+            box-sizing: content-box;
+
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            text-decoration-color: rgb(88, 182, 211);
+            color: rgb(113, 200, 200);
+            text-shadow: 4px 3px rgb(27, 60, 121);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header> Photoduniya </header>
+    <nav>
+        <a href="home.html" class="a1">HOME</a>
+        <a href="my_work.html" target="_blank">MY WORK</a>
+        <a href="#"> IDEAS</a>
+        <a href="#">CONTACT US</a>
+
+    </nav>
+    <table style="height:100px; width:1900px; background-color: aquamarine;">
+        <tr>
+            <td width="5%" height="100%"></td>
+            <td width="20%" height="60%">
+                <img src="img/9df2f300d0b7c2b620941be3c925e37b.jpg" alt="This is no more!" height="100%" width="100%">
+            </td>
+            <td width="10%" height="100%"></td>
+            <td width="20%" height="60%">
+                <img src="img/images.jpg" alt="This is no more!" height="100%" width="100%">
+            </td>
+            <td width="10%" height="100%"></td>>
+            <td width="20%" height="60%">
+                <img src="img/o2dvsv2pnhe.jpg" alt="This is no more!" height="100%" width="100%">
+            </td>
+            <td width="5%" height="100%"></td>
+
+        </tr>
+    </table>
+
+    <section style="background-color: rgb(236, 232, 232);">
+        <h2><i>Our lens capture your moments in all their flavor and fancies....</i></h2>
+        <div class="row">
+            <div class="column">
+                <a href="my_work.html" class="image">
+                    <img src="website/image.jpeg" alt="image" width="350">
+                </a>
+            </div>
+            <div class="column">
+                <a href="Tutorials.html" class="tutorial">
+                    <img src="website/tutorial.png" alt="" width="450">
+                </a>
+            </div>
+            <div class="column">
+                <a href="Equipment.html" class="equipments">
+                    <img src="website/euipment.webp" alt="" width="450" style="padding-left: 30px;">
+                </a>
+            </div>
+
+
+    </section>
+    <section class="section3">
+        <h2 class="h2"><i>Share Your Moments</i></h2>
+        <div class="container">
+            <form action="">
+                <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Instagram* <input type="text" name="Name" required></p>
+                <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Image* <input type="file" name="image" accept="image/*"></p>
+                <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Caption <input type="text" name="Caption" id=""></p>
+                <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Location <input type="text" name="Location"></p>
+
+                <input type="submit" value="SHARE" class="SHARE">
+
+
+            </form>
+        </div>
+
+    </section>
+    <div>
+
+    </div>
+
+
+    <!-- <section>F
+            <h2>My Work</h2>
+            <a href="my_work.html" target="_blacnk"></a>my_work</a>
+            <!-- <iframe src="https://www.instagram.com/p/CSDzWM9JGMw/" frameborder="0"></iframe>
+            <iframe src="https://www.instagram.com/p/CQdSabwp7Wm/" frameborder="0"></iframe>
+            <iframe src="https://www.instagram.com/p/CPp8ke_pijY/" frameborder="0"></iframe> -->
+    </section> -->
+
+    <!-- <section>
+            <h2>Some Ideas</h2>
+            <a href="img/images.jpg" target="_blank" >pics</a>
+        </section> -->
+
+    <!-- <section>
+            <h2>contact us</h2>
+            <a href="https://www.instagram.com/_the.creater/">instagram</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/_the.creater/">instagram</a>
+        </section> -->
+
+    <footer>
+        <a href="#">&copy;</a>
+        <a href="#">About us</a>
+        <a href="#">Terms and condition</a>
+        <a href="#">FAQ</a>
+    </footer>
+</body>
+
+</html>
